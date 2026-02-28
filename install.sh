@@ -3,7 +3,7 @@
 set -e
 
 REPO_URL="https://github.com/paywallone/cursor-config"
-DOWNLOAD_URL="${REPO_URL}/archive/main.tar.gz"
+DOWNLOAD_URL="${REPO_URL}/archive/dev.tar.gz"
 
 GREEN='\033[0;32m'
 BLUE='\033[0;34m'

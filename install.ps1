@@ -4,7 +4,7 @@
 $ErrorActionPreference = "Stop"
 
 $RepoUrl = "https://github.com/paywallone/cursor-config"
-$DownloadUrl = "$RepoUrl/archive/main.zip"
+$DownloadUrl = "$RepoUrl/archive/dev.zip"
 
 Write-Host ""
 Write-Host "==============================================================" -ForegroundColor Blue
