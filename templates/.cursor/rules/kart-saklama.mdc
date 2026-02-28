@@ -1,0 +1,35 @@
+---
+description: "Paywall kart saklama, kart kaydetme, kara liste yönetimi"
+globs: 
+alwaysApply: false
+---
+
+# Paywall Kart Saklama Servisi
+
+Kart saklama işlemleri için `paywall-docs/kart-saklama-servisi/` klasöründeki dosyaları oku.
+
+## Kart Kaydetme
+
+| Konu | Dosya |
+|------|-------|
+| Yeni kart kaydet | `paywall-docs/kart-saklama-servisi/kart-kaydetme/1.-yeni-kart.md` |
+| Kayıtlı kartları getir | `paywall-docs/kart-saklama-servisi/kart-kaydetme/2.-kayitli-kartlar.md` |
+| Kart sil | `paywall-docs/kart-saklama-servisi/kart-kaydetme/3.-kart-sil.md` |
+| Kart güncelle | `paywall-docs/kart-saklama-servisi/kart-kaydetme/4.-kart-guncelle.md` |
+
+## Kart Kaydetme (Sigorta)
+
+| Konu | Dosya |
+|------|-------|
+| Yeni kart kaydet | `paywall-docs/kart-saklama-servisi/kart-kaydetme-sigorta/1.-yeni-kart.md` |
+| Kayıtlı kartları getir | `paywall-docs/kart-saklama-servisi/kart-kaydetme-sigorta/2.-kayitli-kartlar.md` |
+| Kart sil | `paywall-docs/kart-saklama-servisi/kart-kaydetme-sigorta/3.-kart-sil.md` |
+| Kart güncelle | `paywall-docs/kart-saklama-servisi/kart-kaydetme-sigorta/4.-kart-guncelle.md` |
+
+## Kara Liste Yönetimi
+
+| Konu | Dosya |
+|------|-------|
+| Kara listeye ekle | `paywall-docs/kart-saklama-servisi/kara-liste/1.-ekle.md` |
+| Kara listeden sil | `paywall-docs/kart-saklama-servisi/kara-liste/2.-sil.md` |
+| Kara liste sorgula | `paywall-docs/kart-saklama-servisi/kara-liste/3.-sorgula.md` |

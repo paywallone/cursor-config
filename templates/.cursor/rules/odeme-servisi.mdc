@@ -1,0 +1,72 @@
+---
+description: "Paywall ödeme işlemleri: 3D Secure, Non-Secure, iade, iptal, taksit, BIN sorgulama, provizyon"
+globs: 
+alwaysApply: false
+---
+
+# Paywall Ödeme Servisi
+
+Ödeme işlemleri için `paywall-docs/odeme-servisi/` klasöründeki dosyaları oku.
+
+## Anahtar Kelime → Dosya Eşleştirmesi
+
+| Konu | Dosya |
+|------|-------|
+| 3D ödeme, 3D Secure | `paywall-docs/odeme-servisi/4.-3d-odeme.md` |
+| Direkt ödeme, Non-Secure | `paywall-docs/odeme-servisi/2.-non-secure.md` |
+| Sigortalı ödeme | `paywall-docs/odeme-servisi/3.-non-secure-sigorta.md` |
+| Provizyon kapatma | `paywall-docs/odeme-servisi/5.-provizyon-kapatma.md` |
+| Provizyon iptal | `paywall-docs/odeme-servisi/6.-provizyon-iptal.md` |
+| Taksit sorgulama | `paywall-docs/odeme-servisi/7.-taksit-sorgula.md` |
+| BIN sorgulama | `paywall-docs/odeme-servisi/8.-bin-sorgula.md` |
+| İade, refund | `paywall-docs/odeme-servisi/9.-iade.md` |
+| Kısmi iade | `paywall-docs/odeme-servisi/10.-kismi-iade.md` |
+| İptal | `paywall-docs/odeme-servisi/11.-iptal.md` |
+| İptal ve iade | `paywall-docs/odeme-servisi/12.-iptal-and-iade.md` |
+| Kampanya sorgulama | `paywall-docs/odeme-servisi/21.-kampanya-sorgulama.md` |
+
+## Ödeme Sorgulama
+
+| Konu | Dosya |
+|------|-------|
+| Müşteri işlem numarası ile | `paywall-docs/odeme-servisi/13.-odeme-sorgulama/1.-musteri-islem-numarasi.md` |
+| Paywall işlem numarası ile | `paywall-docs/odeme-servisi/13.-odeme-sorgulama/2.-paywall-islem-numarasi.md` |
+| Ödeme kimlik ile | `paywall-docs/odeme-servisi/13.-odeme-sorgulama/3.-odeme-kimlik.md` |
+| Ürün kimlik ile | `paywall-docs/odeme-servisi/13.-odeme-sorgulama/4.-urun-kimlik.md` |
+| Takip kodu ile | `paywall-docs/odeme-servisi/13.-odeme-sorgulama/5.-takip-kodu.md` |
+
+## Ödeme Onaylama
+
+| Konu | Dosya |
+|------|-------|
+| Paywall hesaplayıcı (ürün bazlı) | `paywall-docs/odeme-servisi/14.-odeme-onaylama/1.-paywall-hesaplayici/1.-urun-bazli.md` |
+| Paywall hesaplayıcı (ödeme bazlı) | `paywall-docs/odeme-servisi/14.-odeme-onaylama/1.-paywall-hesaplayici/2.-odeme-bazli.md` |
+| Platform hesaplayıcı (ürün bazlı) | `paywall-docs/odeme-servisi/14.-odeme-onaylama/2.-platform-hesaplayici/1.-urun-bazli.md` |
+| Platform hesaplayıcı (ödeme bazlı) | `paywall-docs/odeme-servisi/14.-odeme-onaylama/2.-platform-hesaplayici/2.-odeme-bazli.md` |
+
+## Ödeme Onay İptali
+
+| Konu | Dosya |
+|------|-------|
+| Ürün bazlı | `paywall-docs/odeme-servisi/15.-odeme-onay-iptali/1.-urun-bazli.md` |
+| Ödeme bazlı | `paywall-docs/odeme-servisi/15.-odeme-onay-iptali/2.-odeme-bazli.md` |
+
+## Ödeme Ürün Yönetimi
+
+| Konu | Dosya |
+|------|-------|
+| Ürün listesi | `paywall-docs/odeme-servisi/16.-odeme-urun-yonetimi/1.-urun-listesi.md` |
+| Kargo maliyeti getir | `paywall-docs/odeme-servisi/16.-odeme-urun-yonetimi/2.-kargo-maliyeti/1.-kargo-maliyetini-getir.md` |
+| Kargo maliyeti tanımla | `paywall-docs/odeme-servisi/16.-odeme-urun-yonetimi/2.-kargo-maliyeti/2.-kargo-maliyeti-tanimla.md` |
+| İndirim bilgisi getir | `paywall-docs/odeme-servisi/16.-odeme-urun-yonetimi/3.-indirim/1.-indirim-bilgisini-getir.md` |
+| İndirim tanımla | `paywall-docs/odeme-servisi/16.-odeme-urun-yonetimi/3.-indirim/2.-indirim-tanimla.md` |
+| Kazanç arttır | `paywall-docs/odeme-servisi/16.-odeme-urun-yonetimi/4.-uye-kazanc/1.-kazanc-arttir.md` |
+| Kazanç azalt | `paywall-docs/odeme-servisi/16.-odeme-urun-yonetimi/4.-uye-kazanc/2.-kazanc-azalt.md` |
+
+## Parçalı Ödeme
+
+- Ödeme başlat: `paywall-docs/odeme-servisi/19.-parcali-odeme/1.-odeme-baslat.md`
+
+## Ödeme Listeleme
+
+- Hareket bazlı: `paywall-docs/odeme-servisi/20.-odeme-listeleme/1.-hareket-bazli.md`

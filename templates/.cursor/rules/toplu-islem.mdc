@@ -1,0 +1,47 @@
+---
+description: "Paywall toplu ödeme, toplu iptal, toplu iade, batch işlemler"
+globs: 
+alwaysApply: false
+---
+
+# Paywall Toplu İşlem Yöntemi
+
+Toplu işlemler için `paywall-docs/odeme-servisi/18.-toplu-islem-yontemi/` klasöründeki dosyaları oku.
+
+## Toplu Ödeme
+
+| Konu | Dosya |
+|------|-------|
+| Storm | `paywall-docs/odeme-servisi/18.-toplu-islem-yontemi/1.-odeme/1.-storm.md` |
+| Tsunami | `paywall-docs/odeme-servisi/18.-toplu-islem-yontemi/1.-odeme/2.-tsunami.md` |
+| Dosya | `paywall-docs/odeme-servisi/18.-toplu-islem-yontemi/1.-odeme/3.-dosya.md` |
+
+## Toplu İptal
+
+| Konu | Dosya |
+|------|-------|
+| İptal toplu | `paywall-docs/odeme-servisi/18.-toplu-islem-yontemi/2.-iptal/1.-iptal-toplu.md` |
+| İptal liste | `paywall-docs/odeme-servisi/18.-toplu-islem-yontemi/2.-iptal/2.-iptal-liste.md` |
+
+## Toplu İade
+
+| Konu | Dosya |
+|------|-------|
+| İade toplu | `paywall-docs/odeme-servisi/18.-toplu-islem-yontemi/3.-iade/1.-iade-toplu.md` |
+| İade liste | `paywall-docs/odeme-servisi/18.-toplu-islem-yontemi/3.-iade/2.-iade-liste.md` |
+
+## Sorgulama
+
+| Konu | Dosya |
+|------|-------|
+| Sorgula | `paywall-docs/odeme-servisi/18.-toplu-islem-yontemi/4.-sorgula.md` |
+| Sorgula özet | `paywall-docs/odeme-servisi/18.-toplu-islem-yontemi/5.-sorgula-ozet.md` |
+| Tekrar dene | `paywall-docs/odeme-servisi/18.-toplu-islem-yontemi/6.-tekrar-dene.md` |
+| Geri bildirim tekrarı | `paywall-docs/odeme-servisi/18.-toplu-islem-yontemi/7.-geri-bildirim-tekrari.md` |
+
+## Örnek Kodlar
+
+| Konu | Dosya |
+|------|-------|
+| Callback metodu | `paywall-docs/ornek-kodlar/toplu-odeme-callback-metodu.md` |
+| GZIP isteği | `paywall-docs/ornek-kodlar/toplu-odeme-gzip-istegi.md` |

@@ -1,0 +1,26 @@
+---
+description: "Paywall payout, para çekme, IBAN, bakiye işlemleri"
+globs: 
+alwaysApply: false
+---
+
+# Paywall Payout Servisi (Para Çekme)
+
+Payout işlemleri için `paywall-docs/payout-servisi/` klasöründeki dosyaları oku.
+
+## Anahtar Kelime → Dosya Eşleştirmesi
+
+| Konu | Dosya |
+|------|-------|
+| Bakiye sorgula | `paywall-docs/payout-servisi/1.-bakiye.md` |
+| Ana hesap bakiye | `paywall-docs/payout-servisi/2.-bakiye-ana-hesap.md` |
+| IBAN'a para gönder | `paywall-docs/payout-servisi/3.-ibana.md` |
+| Kayıtlı üye IBAN | `paywall-docs/payout-servisi/4.-kayitli-uye-iban-member.md` |
+| Hesaba para gönder | `paywall-docs/payout-servisi/5.-hesapa.md` |
+| İşlem sorgulama | `paywall-docs/payout-servisi/6.-islem-sorgulama.md` |
+| Hesap sorgulama | `paywall-docs/payout-servisi/7.-hesap-sorgulama.md` |
+
+## Sistem Verileri
+
+- Payout durumları: `paywall-docs/sistem-verileri/payout-durumlari.md`
+- Payout bilgileri: `paywall-docs/sistem-verileri/payout.md`

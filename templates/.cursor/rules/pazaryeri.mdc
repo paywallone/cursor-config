@@ -1,0 +1,78 @@
+---
+description: "Paywall pazaryeri, marketplace entegrasyonu, kazanç ve borç yönetimi"
+globs: 
+alwaysApply: false
+---
+
+# Paywall Pazaryeri (Marketplace)
+
+Pazaryeri işlemleri için `paywall-docs/odeme-servisi/17.-pazaryeri/` klasöründeki dosyaları oku.
+
+## Genel Bilgiler
+
+- Genel bakış: `paywall-docs/pazaryeri.md`
+- Onay durumları: `paywall-docs/odeme-servisi/17.-pazaryeri/1.-onay-durumlari.md`
+
+## Kazanç Yönetimi - Ürün Bazlı
+
+| Konu | Dosya |
+|------|-------|
+| Kazanç getir | `paywall-docs/odeme-servisi/17.-pazaryeri/2.-kazanc/1.-urun-bazli/1.-kazanc-getir.md` |
+| Kazanç ertele | `paywall-docs/odeme-servisi/17.-pazaryeri/2.-kazanc/1.-urun-bazli/2.-kazanc-ertele.md` |
+| Kazanç arttır | `paywall-docs/odeme-servisi/17.-pazaryeri/2.-kazanc/1.-urun-bazli/3.-kazanc-arttir.md` |
+| Kazanç azalt | `paywall-docs/odeme-servisi/17.-pazaryeri/2.-kazanc/1.-urun-bazli/4.-kazanc-azalt.md` |
+| Tarih güncelle | `paywall-docs/odeme-servisi/17.-pazaryeri/2.-kazanc/1.-urun-bazli/5.-tarih-guncelle.md` |
+| Tekrar dene | `paywall-docs/odeme-servisi/17.-pazaryeri/2.-kazanc/1.-urun-bazli/6.-tekrar-dene.md` |
+
+## Kazanç Yönetimi - Ödeme Bazlı
+
+| Konu | Dosya |
+|------|-------|
+| Kazanç getir | `paywall-docs/odeme-servisi/17.-pazaryeri/2.-kazanc/2.-odeme-bazli/1.-kazanc-getir.md` |
+| Tekrar dene | `paywall-docs/odeme-servisi/17.-pazaryeri/2.-kazanc/2.-odeme-bazli/2.-tekrar-dene.md` |
+
+## Kazanç Yönetimi - Kazanç Bazlı
+
+| Konu | Dosya |
+|------|-------|
+| Kazanç getir | `paywall-docs/odeme-servisi/17.-pazaryeri/2.-kazanc/3.-kazanc-bazli/1.-kazanc-getir.md` |
+| Kazanç ertele | `paywall-docs/odeme-servisi/17.-pazaryeri/2.-kazanc/3.-kazanc-bazli/2.-kazanc-ertele.md` |
+| Kazanç arttır | `paywall-docs/odeme-servisi/17.-pazaryeri/2.-kazanc/3.-kazanc-bazli/3.-kazanc-arttir.md` |
+| Kazanç azalt | `paywall-docs/odeme-servisi/17.-pazaryeri/2.-kazanc/3.-kazanc-bazli/4.-kazanc-azalt.md` |
+| Tarih güncelle | `paywall-docs/odeme-servisi/17.-pazaryeri/2.-kazanc/3.-kazanc-bazli/5.-tarih-guncelle.md` |
+| Tekrar dene | `paywall-docs/odeme-servisi/17.-pazaryeri/2.-kazanc/3.-kazanc-bazli/6.-tekrar-dene.md` |
+
+## Kazanç Yönetimi - Üye Bazlı
+
+| Konu | Dosya |
+|------|-------|
+| Kazanç getir | `paywall-docs/odeme-servisi/17.-pazaryeri/2.-kazanc/4.-uye-bazli/1.-kazanc-getir.md` |
+
+## Borç Yönetimi - Ürün Bazlı
+
+| Konu | Dosya |
+|------|-------|
+| Borç getir | `paywall-docs/odeme-servisi/17.-pazaryeri/3.-borc/1.-urun-bazli/1.-borc-getir.md` |
+
+## Borç Yönetimi - Ödeme Bazlı
+
+| Konu | Dosya |
+|------|-------|
+| Borç getir | `paywall-docs/odeme-servisi/17.-pazaryeri/3.-borc/2.-odeme-bazli/1.-borc-getir.md` |
+
+## Borç Yönetimi - Borç Bazlı
+
+| Konu | Dosya |
+|------|-------|
+| Borç arttır | `paywall-docs/odeme-servisi/17.-pazaryeri/3.-borc/3.-borc-bazli/1.-borc-arttir.md` |
+| Borç azalt | `paywall-docs/odeme-servisi/17.-pazaryeri/3.-borc/3.-borc-bazli/2.-borc-azalt.md` |
+| Borç sil | `paywall-docs/odeme-servisi/17.-pazaryeri/3.-borc/3.-borc-bazli/3.-borc-sil.md` |
+
+## Manuel Tetikleme
+
+| Konu | Dosya |
+|------|-------|
+| Hakediş getir | `paywall-docs/odeme-servisi/17.-pazaryeri/4.-manuel-tetikleme/1.-hakedis-getir.md` |
+| Başlat | `paywall-docs/odeme-servisi/17.-pazaryeri/4.-manuel-tetikleme/2.-baslat.md` |
+| Sorgula | `paywall-docs/odeme-servisi/17.-pazaryeri/4.-manuel-tetikleme/3.-sorgula.md` |
+| Tekrar başlat | `paywall-docs/odeme-servisi/17.-pazaryeri/4.-manuel-tetikleme/4.-tekrar-baslat.md` |

@@ -1,0 +1,88 @@
+---
+description: "Paywall fiziksel POS, terminal entegrasyonu, sağlayıcı, bağlantı yönetimi"
+globs: 
+alwaysApply: false
+---
+
+# Paywall Fiziksel POS Servisi
+
+Fiziksel POS işlemleri için `paywall-docs/fiziksel-pos/` klasöründeki dosyaları oku.
+
+## Sağlayıcı
+
+| Konu | Dosya |
+|------|-------|
+| Liste | `paywall-docs/fiziksel-pos/1.-saglayici/1.-liste.md` |
+| Bölgeye göre liste | `paywall-docs/fiziksel-pos/1.-saglayici/2.-liste-byregion.md` |
+
+## Bağlantı Yönetimi
+
+| Konu | Dosya |
+|------|-------|
+| Liste | `paywall-docs/fiziksel-pos/2.-baglanti/1.-liste.md` |
+| Detay | `paywall-docs/fiziksel-pos/2.-baglanti/2.-detay.md` |
+| Bağlantı kur | `paywall-docs/fiziksel-pos/2.-baglanti/3.-baglanti-kur.md` |
+| Güncelle | `paywall-docs/fiziksel-pos/2.-baglanti/4.-guncelle.md` |
+| Sil | `paywall-docs/fiziksel-pos/2.-baglanti/5.-sil.md` |
+| Bağlantı kopar | `paywall-docs/fiziksel-pos/2.-baglanti/6.-baglanti-kopar.md` |
+| Tekrar bağla | `paywall-docs/fiziksel-pos/2.-baglanti/7.-tekrar-bagla.md` |
+
+## Terminal
+
+| Konu | Dosya |
+|------|-------|
+| Liste | `paywall-docs/fiziksel-pos/3.-terminal/1.-liste.md` |
+| Bağlantıya göre liste | `paywall-docs/fiziksel-pos/3.-terminal/2.-liste-byconnection.md` |
+| Senkronize et | `paywall-docs/fiziksel-pos/3.-terminal/3.-senkronize-et.md` |
+| Bağlantı durumu | `paywall-docs/fiziksel-pos/3.-terminal/4.-baglanti-durumu.md` |
+
+## Terminal Etiketi
+
+| Konu | Dosya |
+|------|-------|
+| Liste | `paywall-docs/fiziksel-pos/4.-terminal-etiketi/1.-liste.md` |
+| Ekle | `paywall-docs/fiziksel-pos/4.-terminal-etiketi/2.-ekle.md` |
+| Güncelle | `paywall-docs/fiziksel-pos/4.-terminal-etiketi/3.-guncelle.md` |
+| Sil | `paywall-docs/fiziksel-pos/4.-terminal-etiketi/4.-sil.md` |
+
+## Eşleşme (Async)
+
+| Konu | Dosya |
+|------|-------|
+| Talep et | `paywall-docs/fiziksel-pos/5.-eslesme/async/1.-talep-et.md` |
+| Talep onayla | `paywall-docs/fiziksel-pos/5.-eslesme/async/2.-talep-onayla.md` |
+| Eşleşme kopar | `paywall-docs/fiziksel-pos/5.-eslesme/async/3.-eslesme-kopar.md` |
+| Talep iptali | `paywall-docs/fiziksel-pos/5.-eslesme/async/4.-talep-iptali.md` |
+
+## Eşleşme (Sync)
+
+| Konu | Dosya |
+|------|-------|
+| Talep et | `paywall-docs/fiziksel-pos/5.-eslesme/sync/1.-talep-et.md` |
+| Eşleşme kopar | `paywall-docs/fiziksel-pos/5.-eslesme/sync/2.-eslesme-kopar.md` |
+| Talep iptali | `paywall-docs/fiziksel-pos/5.-eslesme/sync/3.-talep-iptali.md` |
+
+## Ödeme (Async)
+
+| Konu | Dosya |
+|------|-------|
+| Satış | `paywall-docs/fiziksel-pos/6.-odeme/async/1.-satis.md` |
+| İptal | `paywall-docs/fiziksel-pos/6.-odeme/async/2.-iptal.md` |
+
+## Ödeme (Sync)
+
+| Konu | Dosya |
+|------|-------|
+| Satış | `paywall-docs/fiziksel-pos/6.-odeme/sync/1.-satis.md` |
+| Satış geri çek | `paywall-docs/fiziksel-pos/6.-odeme/sync/2.-satis-geri-cek.md` |
+| İptal | `paywall-docs/fiziksel-pos/6.-odeme/sync/3.-iptal.md` |
+| İptal geri çek | `paywall-docs/fiziksel-pos/6.-odeme/sync/4.-iptal-geri-cek.md` |
+
+## Ödeme Sorguları
+
+| Konu | Dosya |
+|------|-------|
+| Ödemeler | `paywall-docs/fiziksel-pos/6.-odeme/1.-odemeler.md` |
+| Ödeme hareketler | `paywall-docs/fiziksel-pos/6.-odeme/2.-odeme-hareketler.md` |
+| Ödeme ürünler | `paywall-docs/fiziksel-pos/6.-odeme/3.-odeme-urunler.md` |
+| Sorgulama | `paywall-docs/fiziksel-pos/6.-odeme/4.-sorgulama.md` |

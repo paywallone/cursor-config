@@ -1,0 +1,42 @@
+{
+  "redirects": [
+    {
+      "source": "/download/cursor-config.tar.gz",
+      "destination": "https://github.com/paywallone/cursor-config/archive/main.tar.gz",
+      "permanent": false
+    },
+    {
+      "source": "/download/cursor-config.zip",
+      "destination": "https://github.com/paywallone/cursor-config/archive/main.zip",
+      "permanent": false
+    }
+  ],
+  "headers": [
+    {
+      "source": "/install.sh",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300"
+        }
+      ]
+    },
+    {
+      "source": "/install.ps1",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300"
+        }
+      ]
+    }
+  ]
+}

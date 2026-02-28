@@ -1,0 +1,16 @@
+# Üye Servisi
+
+- [Üye Yönetimi](uye-servisi/uye-yonetimi.md)
+- [1. Üye Oluştur](uye-servisi/uye-yonetimi/1.-uye-olustur.md)
+- [2. Üye Güncelle](uye-servisi/uye-yonetimi/2.-uye-guncelle.md)
+- [3. Üye Sil](uye-servisi/uye-yonetimi/3.-uye-sil.md)
+- [4. Üyeler](uye-servisi/uye-yonetimi/4.-uyeler.md)
+- [5. Üye Ara](uye-servisi/uye-yonetimi/5.-uye-ara.md)
+- [Üye Banka Yönetimi](uye-servisi/uye-banka-yonetimi.md)
+- [1. Banka Yöntemi Ekle](uye-servisi/uye-banka-yonetimi/1.-banka-yontemi-ekle.md)
+- [2. Banka Yöntemi Düzenle](uye-servisi/uye-banka-yonetimi/2.-banka-yontemi-duzenle.md)
+- [3. Banka Yöntemi Sil](uye-servisi/uye-banka-yonetimi/3.-banka-yontemi-sil.md)
+- [4. Banka Yöntemleri](uye-servisi/uye-banka-yonetimi/4.-banka-yontemleri.md)
+- [Üye Valör/Komisyon](uye-servisi/uye-valor-komisyon.md)
+- [1. Valör/Komisyon Getir](uye-servisi/uye-valor-komisyon/1.-valor-komisyon-getir.md)
+- [2. Valör/Komisyon Ekle](uye-servisi/uye-valor-komisyon/2.-valor-komisyon-ekle.md)

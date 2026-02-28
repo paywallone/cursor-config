@@ -1,0 +1,99 @@
+# Cüzdan Servisleri
+
+- [1. Cüzdan Sahipleri](cuzdan-servisleri/1.-cuzdan-sahipleri.md)
+- [1. Liste](cuzdan-servisleri/1.-cuzdan-sahipleri/1.-liste.md): Cüzdan sahipleri (kullanıcılar) listesine bu sayfadaki servisle erişebilirsiniz
+- [2. Oluştur](cuzdan-servisleri/1.-cuzdan-sahipleri/2.-olustur.md): Yeni bir cüzdan sahibi kaydı oluşturmak için bu sayfadaki servis üzerinden gerekli parametrelerle birlikte API çağrısı yapılmalıdır
+- [3. Getir](cuzdan-servisleri/1.-cuzdan-sahipleri/3.-getir.md): Belirli bir cüzdan sahibinin detaylarını almak için bu sayfa üzerindeki servis, uygun parametrelerle kullanılmalıdır
+- [4. Sil](cuzdan-servisleri/1.-cuzdan-sahipleri/4.-sil.md): Kayıtlı bir cüzdan sahibi kaydını silmek için bu sayfadaki servis, ilgili parametrelerle birlikte çağrılmalıdır.
+- [5. Güncelleme](cuzdan-servisleri/1.-cuzdan-sahipleri/5.-guncelleme.md): Mevcut bir cüzdan sahibi kaydını güncellemek için bu sayfadaki servis, gerekli parametrelerle birlikte kullanılmalıdır.
+- [6. Kimlik ile Sorgula](cuzdan-servisleri/1.-cuzdan-sahipleri/6.-kimlik-ile-sorgula.md): Belirtilen kimlik bilgisi ile mevcut cüzdan sahibi kaydını sorgulamak için bu sayfadaki servis, gerekli parametrelerle birlikte kullanılmalıdır.
+- [7. Vergi Numarası ile Sorgula](cuzdan-servisleri/1.-cuzdan-sahipleri/7.-vergi-numarasi-ile-sorgula.md): Belirtilen vergi numarası üzerinden cüzdan sahibi kaydına erişmek için bu servisin gerekli parametrelerle birlikte kullanılması gerekmektedir.
+- [2. Cüzdan](cuzdan-servisleri/2.-cuzdan.md)
+- [1. Getir](cuzdan-servisleri/2.-cuzdan/1.-getir.md): Sistemdeki belirli bir kayda ulaşmak için Id parametresi ile bu servis kullanılmalıdır.
+- [2. Getir (By-Alias)](cuzdan-servisleri/2.-cuzdan/2.-getir-by-alias.md): Belirli bir alias değerine karşılık gelen kayıt verisine ulaşmak amacıyla bu servis kullanılmalıdır.
+- [3. Getir (By-WalletOwner)](cuzdan-servisleri/2.-cuzdan/3.-getir-by-walletowner.md): Belirli bir WalletOwner'a ait cüzdanları bu servis ile listeleyebilirsiniz
+- [4. Oluştur](cuzdan-servisleri/2.-cuzdan/4.-olustur.md): Sisteme yeni bir veri eklemek için bu servis çağrılmalıdır.
+- [5. Güncelle](cuzdan-servisleri/2.-cuzdan/5.-guncelle.md): Sistemde mevcut olan bir kaydı güncellemek amacıyla bu servis kullanılmalıdır.
+- [6. Sil](cuzdan-servisleri/2.-cuzdan/6.-sil.md): Belirli bir kaydı sistemden kaldırmak için bu servis kullanılmalıdır.
+- [7. Dondur](cuzdan-servisleri/2.-cuzdan/7.-dondur.md): Bir kaydı geçici olarak dondurmak ve işlem yapılmasını engellemek amacıyla bu servis aracılığıyla bilgi gönderilmelidir.
+- [8. Dondurmayı Kaldır](cuzdan-servisleri/2.-cuzdan/8.-dondurmayi-kaldir.md): Bir kaydın üzerindeki dondurma işlemini kaldırmak ve tekrar işlem yapılabilmesini sağlamak amacıyla bu servis aracılığıyla bilgi gönderilmelidir.
+- [9. Para Yatırma (Wallet)](cuzdan-servisleri/2.-cuzdan/9.-para-yatirma-wallet.md): Bir hesaba para yatırmak ve yatırılan tutarın işleme alınabilmesi amacıyla bu servis aracılığıyla bilgi gönderilmelidir.
+- [10. Para Yatırma (Alias)](cuzdan-servisleri/2.-cuzdan/10.-para-yatirma-alias.md): Belirtilen alias bilgisi kullanılarak bir hesaba para yatırmak ve yatırılan tutarın işleme alınabilmesi amacıyla bu servis aracılığıyla bilgi gönderilmelidir.
+- [11. Para Çekme (Wallet)](cuzdan-servisleri/2.-cuzdan/11.-para-cekme-wallet.md): Belirtilen alias bilgisi kullanılarak bir hesaptan para çekmek ve çekilen tutarın işleme alınabilmesi amacıyla bu servis aracılığıyla bilgi gönderilmelidir.
+- [12. Para Çekme (Alias)](cuzdan-servisleri/2.-cuzdan/12.-para-cekme-alias.md): Belirtilen Alias bilgisi kullanılarak bir hesaptan para çekme işlemi başlatmak ve çekilen tutarın işleme alınabilmesi amacıyla bu servis aracılığıyla bilgi gönderilmelidir.
+- [13. Para Transferi (Wallet)](cuzdan-servisleri/2.-cuzdan/13.-para-transferi-wallet.md): Cüzdanlar arası para transferi yapmak için bu servisi kullanabilirsiniz
+- [14. Para Transferi (Alias)](cuzdan-servisleri/2.-cuzdan/14.-para-transferi-alias.md): Cüzdanlar arası para transferi yapmak için bu servisi kullanabilirsiniz
+- [15. Para Transfer (Wallet - Alias)](cuzdan-servisleri/2.-cuzdan/15.-para-transfer-wallet-alias.md): Cüzdanlar arası para transferi yapmak için bu servisi kullanabilirsiniz
+- [16. Bakiye Sorgula (Wallet)](cuzdan-servisleri/2.-cuzdan/16.-bakiye-sorgula-wallet.md): Belirli bir cüzdana ait bakiye sorgulamasını bu servis aracılığıyla sorgulayabilirsiniz
+- [17. Bakiye Sorgula (Alias)](cuzdan-servisleri/2.-cuzdan/17.-bakiye-sorgula-alias.md): Belirli bir cüzdana ait bakiye sorgulamasını bu servis aracılığıyla sorgulayabilirsiniz
+- [18. Satış/Harcama (Wallet)](cuzdan-servisleri/2.-cuzdan/18.-satis-harcama-wallet.md): Cüzdan ile yapılan satış/harcama işlemlerini bu servis üzerinden yönetebilirsiniz
+- [19. Satış/Harcama (Alias)](cuzdan-servisleri/2.-cuzdan/19.-satis-harcama-alias.md): Cüzdan ile yapılan satış/harcama işlemlerini bu servis üzerinden yönetebilirsiniz
+- [20. Satış/Harcama İptal](cuzdan-servisleri/2.-cuzdan/20.-satis-harcama-iptal.md): Bir satın alma işlemini iptal etmek amacıyla bu servis kullanılmalıdır.
+- [21. Satış/Harcama İade](cuzdan-servisleri/2.-cuzdan/21.-satis-harcama-iade.md): Gerçekleştirilen bir satın alma işleminin iadesini gerçekleştirmek amacıyla bu servis kullanılmalıdır.
+- [22. İşlem Kontrolü (Wallet)](cuzdan-servisleri/2.-cuzdan/22.-islem-kontrolu-wallet.md): Cüzdan üzerinde gerçekleştirilmek istenen işlem için ilgili cüzdan uygun mu kontrolünü bu servis ile yapabilirsiniz. Bu servis bakiye kontrollerini yapar ve ilgili cüzdan satış için uygun mu söyler
+- [23. İşlem Kontrolü (Alias)](cuzdan-servisleri/2.-cuzdan/23.-islem-kontrolu-alias.md): Cüzdan üzerinde gerçekleştirilmek istenen işlem için ilgili cüzdan uygun mu kontrolünü bu servis ile yapabilirsiniz. Bu servis bakiye kontrollerini yapar ve ilgili cüzdan satış için uygun mu söyler
+- [3. İşlemler](cuzdan-servisleri/3.-islemler.md)
+- [1. Id ile Getir](cuzdan-servisleri/3.-islemler/1.-id-ile-getir.md): Belirtilen Id değeri ile ilgili kayıt detayını görüntülemek için bu servis kullanılmalıdır.
+- [2. Wallet ile Getir](cuzdan-servisleri/3.-islemler/2.-wallet-ile-getir.md): Belirtilen WalletId değeri ile ilişkili kayıt bilgilerine erişmek için bu servis kullanılmalıdır.
+- [3. WalletOwner ile Getir](cuzdan-servisleri/3.-islemler/3.-walletowner-ile-getir.md): Belirtilen WalletOwnerId değeri ile ilişkili kayıt bilgilerine erişmek için bu servis kullanılmalıdır.
+- [4. Referans ile Getir](cuzdan-servisleri/3.-islemler/4.-referans-ile-getir.md): Belirtilen ExternalReference değeri ile ilişkili kayıt bilgilerine erişmek için bu servis kullanılmalıdır.
+- [5. Açıklama Güncelle](cuzdan-servisleri/3.-islemler/5.-aciklama-guncelle.md): Belirtilen ExternalReference değeri ile ilişkili kayıt bilgilerine erişmek için bu servis kullanılmalıdır.
+- [4. Limit Yönetimi](cuzdan-servisleri/4.-limit-yonetimi.md)
+- [1. Oluştur (Sistem)](cuzdan-servisleri/4.-limit-yonetimi/1.-olustur-sistem.md): Sistem geneline limit uygulamak için bu servisi kullanabilirsiniz
+- [2. Oluştur (WalletOwner)](cuzdan-servisleri/4.-limit-yonetimi/2.-olustur-walletowner.md): Cüzdan sahibi bazında limit uygulamak için bu servisi kullanabilirsiniz
+- [3. Oluştur (Wallet)](cuzdan-servisleri/4.-limit-yonetimi/3.-olustur-wallet.md): Cüzdan bazında limit uygulamak için bu servisi kullanabilirsiniz
+- [4. Listele](cuzdan-servisleri/4.-limit-yonetimi/4.-listele.md): Uygulanmış limitleri listelemek için bu servisi kullanabilirsiniz
+- [5. Güncelleme](cuzdan-servisleri/4.-limit-yonetimi/5.-guncelleme.md): Tanımlı limiti güncellemek için bu servisi kullanabilirsiniz
+- [6. Sil (Id)](cuzdan-servisleri/4.-limit-yonetimi/6.-sil-id.md): Tanımlı limiti silmek için bu servisi kullanabilirsiniz
+- [7. Sil (Sistem)](cuzdan-servisleri/4.-limit-yonetimi/7.-sil-sistem.md): Tanımlı limiti silmek için bu servisi kullanabilirsiniz
+- [8. Sil (WalletOwner)](cuzdan-servisleri/4.-limit-yonetimi/8.-sil-walletowner.md): Tanımlı limiti silmek için bu servisi kullanabilirsiniz
+- [9. Sil (Wallet)](cuzdan-servisleri/4.-limit-yonetimi/9.-sil-wallet.md): Tanımlı limiti silmek için bu servisi kullanabilirsiniz
+- [5. Limit Kullanımları](cuzdan-servisleri/5.-limit-kullanimlari.md)
+- [1. Limit Kullanım (Wallet)](cuzdan-servisleri/5.-limit-kullanimlari/1.-limit-kullanim-wallet.md): Cüzdan'a tanımlanmış limitlerin kullanımını görüntülemek için bu servisi kullanabilirsiniz
+- [2. Limit Kullanım (WalletOwner)](cuzdan-servisleri/5.-limit-kullanimlari/2.-limit-kullanim-walletowner.md): Cüzdan sahibine tanımlanmış limitlerin kullanımını görüntülemek için bu servisi kullanabilirsiniz
+- [6. Hediye Bakiye](cuzdan-servisleri/6.-hediye-bakiye.md)
+- [1. Oluştur (Wallet)](cuzdan-servisleri/6.-hediye-bakiye/1.-olustur-wallet.md): Cüzdanlara hediye bakiye tanımlamak için bu servisi kullanabilirsiniz
+- [2. Oluştur (Alias)](cuzdan-servisleri/6.-hediye-bakiye/2.-olustur-alias.md): Cüzdanlara hediye bakiye tanımlamak için bu servisi kullanabilirsiniz
+- [3. Sorgula (Id)](cuzdan-servisleri/6.-hediye-bakiye/3.-sorgula-id.md): Tanımlanan hediye bakiyeyi, bakiyenin kimlik (Id) bilgisiyle sorgulamak için bu servisi kullanabilirsiniz
+- [4. Sorgula (Wallet)](cuzdan-servisleri/6.-hediye-bakiye/4.-sorgula-wallet.md): Tanımlanan hediye bakiyeyi, tanımlandığı cüzdan kimlik (Id) bilgisiyle sorgulamak için bu servisi kullanabilirsiniz
+- [5. Sil (Id)](cuzdan-servisleri/6.-hediye-bakiye/5.-sil-id.md): Tanımlanan hediye bakiyeyi, kimlik (Id) bilgisiyle silmek için bu servisi kullanabilirsiniz
+- [6. Sil (WalletId)](cuzdan-servisleri/6.-hediye-bakiye/6.-sil-walletid.md): Tanımlanan hediye bakiyeyi, cüzdan kimliği (WalletId) bilgisiyle silmek için bu servisi kullanabilirsiniz
+- [7. Kampanya](cuzdan-servisleri/7.-kampanya.md)
+- [1. Oluştur](cuzdan-servisleri/7.-kampanya/1.-olustur.md): Yeni bir kayıt eklemek amacıyla bu servis kullanılmalıdır.
+- [2. Güncelle](cuzdan-servisleri/7.-kampanya/2.-guncelle.md): Mevcut bir kaydın belirli alanlarını yeni verilerle değiştirmek amacıyla bu servis kullanılmaktadır.
+- [3. Getir (Name)](cuzdan-servisleri/7.-kampanya/3.-getir-name.md): Belirtilen isim bilgisi kullanılarak mevcut kayıt detaylarını görüntülemek için bu servis kullanılmaktadır.
+- [4. Getir (Id)](cuzdan-servisleri/7.-kampanya/4.-getir-id.md): Belirtilen Id bilgisi kullanılarak mevcut kayıt detaylarını görüntülemek için bu servis kullanılmaktadır.
+- [5. Pasif Et](cuzdan-servisleri/7.-kampanya/5.-pasif-et.md): Kampanyanızı ilgili servis ile pasif edebilirsiniz
+- [6. Aktif Et](cuzdan-servisleri/7.-kampanya/6.-aktif-et.md): Kampanyanızı ilgili servis ile aktif edebilirsiniz
+- [7. Sil](cuzdan-servisleri/7.-kampanya/7.-sil.md): Kampanyanızı ilgili servis ile silebilirsiniz
+- [8. Tümünü Sil](cuzdan-servisleri/7.-kampanya/8.-tumunu-sil.md): Kampanyanızı ilgili servis ile silebilirsiniz
+- [9. Aktif Kampanyalar](cuzdan-servisleri/7.-kampanya/9.-aktif-kampanyalar.md): Aktif kampanyalarınızı ilgili servis ile listeleyebilirsiniz
+- [8. Komisyon Yönetimi](cuzdan-servisleri/8.-komisyon-yonetimi.md)
+- [1. Oluştur (Sistem Seviyesi)](cuzdan-servisleri/8.-komisyon-yonetimi/1.-olustur-sistem-seviyesi.md): Tüm cüzdan yönetiminize, sistem genelinde tüm cüzdan sahiplerine ve cüzdanlarına uygulanacak komisyon oluşturma işlemini bu servisle oluşturabilirsiniz.
+- [2. Oluştur (Cüzdan Sahibi)](cuzdan-servisleri/8.-komisyon-yonetimi/2.-olustur-cuzdan-sahibi.md): Cüzdan sahibi özelinde komisyon oluşturma işlemini bu servisle oluşturabilirsiniz.
+- [3. Oluştur (Cüzdan)](cuzdan-servisleri/8.-komisyon-yonetimi/3.-olustur-cuzdan.md): Cüzdan özelinde komisyon oluşturma işlemini bu servisle oluşturabilirsiniz.
+- [4. Getir (Id)](cuzdan-servisleri/8.-komisyon-yonetimi/4.-getir-id.md): Komisyon kimlik (Id) bilgisiyle komisyon detayını getir
+- [5. Liste (Sistem Seviyesi)](cuzdan-servisleri/8.-komisyon-yonetimi/5.-liste-sistem-seviyesi.md): Üye işyeri (Paywall hesabınız) bazındaki komisyonları listelemek için bu servisi kullanabilirsiniz
+- [6. Liste (Cüzdan Sahibi)](cuzdan-servisleri/8.-komisyon-yonetimi/6.-liste-cuzdan-sahibi.md): Cüzdan sahibi bazındaki komisyonları listelemek için bu servisi kullanabilirsiniz
+- [7. Liste (Cüzdan)](cuzdan-servisleri/8.-komisyon-yonetimi/7.-liste-cuzdan.md): Cüzdan bazındaki komisyonları listelemek için bu servisi kullanabilirsiniz
+- [8. Komisyon Güncelle](cuzdan-servisleri/8.-komisyon-yonetimi/8.-komisyon-guncelle.md): Belirli bir komisyonun maliyetini güncellemek için bu servisi kullanabilirsiniz
+- [9. Aktif Et](cuzdan-servisleri/8.-komisyon-yonetimi/9.-aktif-et.md): Belirli bir komisyonu aktif etmek için bu servisi kullanabilirsiniz
+- [10. Pasif Et](cuzdan-servisleri/8.-komisyon-yonetimi/10.-pasif-et.md): Belirli bir komisyonu pasif etmek için bu servisi kullanabilirsiniz
+- [11. Sil (Id)](cuzdan-servisleri/8.-komisyon-yonetimi/11.-sil-id.md): Belirli bir komisyonu silmek için bu servisi kullanabilirsiniz
+- [12. Sil (Sistem)](cuzdan-servisleri/8.-komisyon-yonetimi/12.-sil-sistem.md): Sistem seviyesinde oluşturulan tüm komisyonları silmek için bu servisi kullanabilirsiniz
+- [13. Sil (WalletOwner)](cuzdan-servisleri/8.-komisyon-yonetimi/13.-sil-walletowner.md): WalletOwner seviyesinde oluşturulan tüm komisyonları silmek için bu servisi kullanabilirsiniz
+- [14. Sil (Wallet)](cuzdan-servisleri/8.-komisyon-yonetimi/14.-sil-wallet.md): Wallet seviyesinde oluşturulan tüm komisyonları silmek için bu servisi kullanabilirsiniz
+- [9. Bloklu Bakiye](cuzdan-servisleri/9.-bloklu-bakiye.md)
+- [1. Tanımla](cuzdan-servisleri/9.-bloklu-bakiye/1.-tanimla.md): Belirli bir cüzdana blokeli bakiye tanımlamak için ilgili servisi kullanabilirsiniz.
+- [2. Liste](cuzdan-servisleri/9.-bloklu-bakiye/2.-liste.md): Belirli bir cüzdana tanımlanmış blokeli bakiye görüntülemek/sorgulamak için bu servisi kullanabilirsiniz
+- [3. Sil](cuzdan-servisleri/9.-bloklu-bakiye/3.-sil.md): Belirli bir cüzdana tanımlanmış blokeli bakiye silmek için bu servisi kullanabilirsiniz
+- [Sistem Verileri](cuzdan-servisleri/sistem-verileri.md)
+- [Cüzdan Sahip Tipleri](cuzdan-servisleri/sistem-verileri/cuzdan-sahip-tipleri.md)
+- [İşlem Tipleri](cuzdan-servisleri/sistem-verileri/islem-tipleri.md)
+- [Komisyon Seviyeleri](cuzdan-servisleri/sistem-verileri/komisyon-seviyeleri.md)
+- [Komisyon Koşul Tipleri](cuzdan-servisleri/sistem-verileri/komisyon-kosul-tipleri.md)
+- [Komisyon Maliyet Tipleri](cuzdan-servisleri/sistem-verileri/komisyon-maliyet-tipleri.md)
+- [Cashback Tipleri](cuzdan-servisleri/sistem-verileri/cashback-tipleri.md)
+- [Limit Kategorileri](cuzdan-servisleri/sistem-verileri/limit-kategorileri.md)
+- [Limit Tipleri](cuzdan-servisleri/sistem-verileri/limit-tipleri.md)
+- [Limit Kullanım Tipleri](cuzdan-servisleri/sistem-verileri/limit-kullanim-tipleri.md)

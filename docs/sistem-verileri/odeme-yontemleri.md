@@ -1,0 +1,3 @@
+# Ödeme Yöntemleri
+
+<table><thead><tr><th width="253">Id</th><th>Yöntem</th></tr></thead><tbody><tr><td>1</td><td>3D</td></tr><tr><td>2</td><td>NonSecure</td></tr><tr><td>3</td><td>3D (Ön Provizyon)</td></tr><tr><td>4</td><td>NonSecure (Ön Provizyon)</td></tr><tr><td>5</td><td>Insurance (Sigortacılık İlk8 - Son4)</td></tr><tr><td>6</td><td>Bilinmiyor<br><br><strong>Not:</strong> Koşullu ödemelerde, ödemenin gerçekleşeceği yöntem belli olana kadar ilgili işlem <code>Bilinmiyor</code> yöntemine sahip olur</td></tr><tr><td>7</td><td>Otp<br><br><strong>Not:</strong> Masterpass ödeme süreçlerinde <code>Otp</code> ile gerçekleşen işlemler için geçerlidir</td></tr></tbody></table>

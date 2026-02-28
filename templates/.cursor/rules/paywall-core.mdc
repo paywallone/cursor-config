@@ -1,0 +1,152 @@
+---
+description: "Paywall API entegrasyonu için temel bilgiler, authentication ve ortam ayarları"
+globs: 
+alwaysApply: true
+---
+
+# Paywall API Entegrasyon Rehberi
+
+Bu proje Paywall ödeme sistemini kullanmaktadır. Tüm Paywall API soruları için `paywall-docs/` klasöründeki ilgili markdown dosyalarını oku.
+
+## Temel Kurallar
+
+1. Paywall ile ilgili HER soruda `paywall-docs/` klasöründeki ilgili dosyayı OKU
+2. Kod örnekleri için dosyadaki örnekleri kullan (C#, Go, Java, PHP, Python, Ruby, TypeScript, cURL mevcut)
+3. JSON request/response örneklerini dosyalardan al
+4. Hata kodları için `paywall-docs/hata-kodlari-ve-aciklamalari.md` dosyasını kontrol et
+
+## Fallback Arama Stratejisi
+
+Eğer diğer kural dosyalarındaki referanslarla cevap bulamazsan:
+
+1. **Klasör Yapısını Tara**: `paywall-docs/` klasöründeki alt klasörleri listele
+2. **Anahtar Kelime Ara**: Kullanıcının sorduğu konuyla ilgili dosya isimlerini ara
+3. **Dosyaları Oku**: İlgili görünen .md dosyalarını oku ve içeriğini incele
+4. **Kapsamlı Cevap Ver**: Birden fazla dosyadan bilgi birleştirerek cevap oluştur
+
+### Ana Dökümanlar (Root)
+
+Bu dosyalar servislerin genel bakış sayfalarıdır, detaylara girmeden önce bunları oku:
+
+| Dosya | Açıklama |
+|-------|----------|
+| `paywall-docs/odeme-servisi.md` | Ödeme servisi genel bakış |
+| `paywall-docs/tekrarli-odeme-servisi.md` | Tekrarlı ödeme genel bakış |
+| `paywall-docs/kart-saklama-servisi.md` | Kart saklama genel bakış |
+| `paywall-docs/payout-servisi.md` | Payout genel bakış |
+| `paywall-docs/cuzdan-servisleri.md` | Cüzdan servisleri genel bakış |
+| `paywall-docs/fiziksel-pos.md` | Fiziksel POS genel bakış |
+| `paywall-docs/alternatif-odeme-apm.md` | APM genel bakış |
+| `paywall-docs/masterpass-entegrasyonu.md` | Masterpass genel bakış |
+| `paywall-docs/linkqr-servisi.md` | Link/QR genel bakış |
+| `paywall-docs/ortak-odeme-sayfasi.md` | Checkout page genel bakış |
+| `paywall-docs/uye-servisi.md` | Üye servisi genel bakış |
+| `paywall-docs/mutabakat-servisi.md` | Mutabakat genel bakış |
+| `paywall-docs/kart-uretim-servisi.md` | Kart üretim genel bakış |
+| `paywall-docs/geri-bildirim-ornekleri.md` | Webhook genel bakış |
+| `paywall-docs/hash-olusturma.md` | Hash oluşturma genel bakış |
+| `paywall-docs/sistem-verileri.md` | Sistem verileri genel bakış |
+| `paywall-docs/client-side-servisler.md` | Client-side genel bakış |
+| `paywall-docs/ornek-kodlar.md` | Örnek kodlar genel bakış |
+| `paywall-docs/authentication.md` | API kimlik doğrulama |
+| `paywall-docs/ortam.md` | Ortam bilgileri |
+| `paywall-docs/genel-bakis.md` | Platform genel bakış |
+| `paywall-docs/pazaryeri.md` | Pazaryeri genel bakış |
+| `paywall-docs/ozel-akislar.md` | Özel akışlar |
+| `paywall-docs/hata-kodlari-ve-aciklamalari.md` | Hata kodları listesi |
+| `paywall-docs/test-kartlari.md` | Test kartları listesi |
+| `paywall-docs/paywall-test-kartlari.md` | Ek test kartları |
+| `paywall-docs/kutuphaneler.md` | SDK ve kütüphaneler |
+| `paywall-docs/destek-merkezi.md` | Destek bilgileri |
+| `paywall-docs/sikca-sorulan-sorular.md` | SSS |
+
+### Klasör Yapısı (Detaylı Dökümanlar)
+
+```
+paywall-docs/
+├── odeme-servisi/           → Tüm ödeme işlemleri (3D, iade, iptal vs.)
+├── tekrarli-odeme-servisi/  → Subscription/abonelik detayları
+├── kart-saklama-servisi/    → Kart kaydetme/silme detayları
+├── payout-servisi/          → Para çekme/IBAN detayları
+├── cuzdan-servisleri/       → Wallet işlemleri detayları
+├── fiziksel-pos/            → Terminal/POS detayları
+├── alternatif-odeme-apm/    → APM yöntemleri detayları
+├── masterpass-entegrasyonu/ → Masterpass detayları
+├── linkqr-servisi/          → Link/QR ödeme detayları
+├── ortak-odeme-sayfasi/     → Checkout page detayları
+├── uye-servisi/             → Üye yönetimi detayları
+├── mutabakat-servisi/       → Mutabakat detayları
+├── kart-uretim-servisi/     → Kart üretim detayları
+├── geri-bildirim-ornekleri/ → Webhook/callback detayları
+├── hash-olusturma/          → Hash güvenlik detayları
+├── sistem-verileri/         → Enum değerleri detayları
+├── ornek-kodlar/            → Kod örnekleri detayları
+├── client-side-servisler/   → Client-side detayları
+├── ortam/                   → Test/Production ortam detayları
+└── genel-bakis/             → Sağlayıcılar ve tanıtım detayları
+```
+
+**ÖNEMLİ**: Emin olmadığın durumlarda `paywall-docs/` klasöründe gezin ve ilgili dosyaları oku. Asla tahmin yapma, her zaman dökümanlardan oku!
+
+## API Ortamları
+
+### Test Ortamı
+| Servis | URL |
+|--------|-----|
+| Payment API | https://test-payment-api.itspaywall.com |
+| Payment Private API | https://test-payment-private-api.itspaywall.com |
+| CardWall API | https://test-card-api.itspaywall.com |
+| Member API | https://test-member-api.itspaywall.com |
+| Physical API | https://test-physicalpos-api.itspaywall.com |
+| Wallet API | https://test-wallet-api.itspaywall.com |
+
+### Production Ortamı
+| Servis | URL |
+|--------|-----|
+| Payment API | https://payment-api.itspaywall.com |
+| Payment Private API | https://payment-private-api.itspaywall.com |
+
+### Panel Adresleri
+- Test Panel: https://dev-panel.itspaywall.com
+- Production Panel: https://panel.itspaywall.com
+
+## Authentication
+
+### Public API Header
+```
+apikeypublic: {PUBLIC_KEY}
+apiclientpublic: {PUBLIC_CLIENT}
+```
+
+### Private API Header
+```
+apikeyprivate: {PRIVATE_KEY}
+apiclientprivate: {PRIVATE_CLIENT}
+```
+
+## Para Birimleri (CurrencyId)
+
+| ID | Para Birimi |
+|----|-------------|
+| 1 | TRY |
+| 2 | USD |
+| 3 | EUR |
+| 4 | GBP |
+
+## Test Kartları (Hızlı Referans)
+
+| Kart No | SKT | CVV | Sağlayıcı |
+|---------|-----|-----|-----------|
+| 5528790000000008 | 12/30 | 123 | Iyzico |
+| 4546711234567894 | 12/26 | 000 | Param |
+| 5401341234567891 | 12/26 | 000 | Param |
+
+Tam liste: `paywall-docs/test-kartlari.md`
+
+## Döküman Referansları
+
+- Genel Bakış: `paywall-docs/genel-bakis.md`
+- Authentication: `paywall-docs/authentication.md`
+- Ortam Bilgileri: `paywall-docs/ortam.md`
+- Hata Kodları: `paywall-docs/hata-kodlari-ve-aciklamalari.md`
+- Test Kartları: `paywall-docs/test-kartlari.md`

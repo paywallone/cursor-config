@@ -1,0 +1,66 @@
+---
+description: "Paywall webhook, callback, geri bildirim, hata kodları, sistem verileri"
+globs: 
+alwaysApply: false
+---
+
+# Paywall Webhook & Hata Kodları
+
+## Geri Bildirim Örnekleri (Webhook/Callback)
+
+Webhook işlemleri için `paywall-docs/geri-bildirim-ornekleri/` klasöründeki dosyaları oku.
+
+| Konu | Dosya |
+|------|-------|
+| 3D bildirimi | `paywall-docs/geri-bildirim-ornekleri/3d-bildirimi.md` |
+| APM | `paywall-docs/geri-bildirim-ornekleri/apm.md` |
+| Fiziksel ödeme (sync/async) | `paywall-docs/geri-bildirim-ornekleri/fiziksel-odeme-sync-async.md` |
+| Genel haberleşme | `paywall-docs/geri-bildirim-ornekleri/genel-haberlesme.md` |
+| Parçalı işlem | `paywall-docs/geri-bildirim-ornekleri/parcali-islem-geri-bildirim.md` |
+| Payout | `paywall-docs/geri-bildirim-ornekleri/payout.md` |
+| Paywatch | `paywall-docs/geri-bildirim-ornekleri/paywatch.md` |
+| Tekrarlı ödeme | `paywall-docs/geri-bildirim-ornekleri/tekrarli-odeme.md` |
+| Toplu dosya | `paywall-docs/geri-bildirim-ornekleri/toplu-dosya-geri-bildirim.md` |
+| Toplu işlem | `paywall-docs/geri-bildirim-ornekleri/toplu-islem-geri-bildirim.md` |
+
+## Hata Kodları
+
+Hata kodları için `paywall-docs/hata-kodlari-ve-aciklamalari.md` dosyasını oku.
+
+## Sistem Verileri (Enum Değerleri)
+
+| Konu | Dosya |
+|------|-------|
+| APM | `paywall-docs/sistem-verileri/apm.md` |
+| Bölgeler | `paywall-docs/sistem-verileri/bolgeler-region.md` |
+| Dil seçenekleri | `paywall-docs/sistem-verileri/dil-secenekleri.md` |
+| Geri bildirim tipleri | `paywall-docs/sistem-verileri/geri-bildirim-tipleri.md` |
+| İndirim sahibi tipleri | `paywall-docs/sistem-verileri/indirim-sahibi-tipleri.md` |
+| İndirim tipleri | `paywall-docs/sistem-verileri/indirim-tipleri.md` |
+| IP listesi | `paywall-docs/sistem-verileri/ip-listesi.md` |
+| Kargo tipleri | `paywall-docs/sistem-verileri/kargo-tipleri.md` |
+| Kart aileleri | `paywall-docs/sistem-verileri/kart-aileleri.md` |
+| Kart hareket tipleri | `paywall-docs/sistem-verileri/kart-hareket-tipleri.md` |
+| Kart üretim | `paywall-docs/sistem-verileri/kart-uretim.md` |
+| Masterpass cevap kodları | `paywall-docs/sistem-verileri/masterpass-cevap-kodlari.md` |
+| Masterpass ICA kodları | `paywall-docs/sistem-verileri/masterpass-ica-kodlari.md` |
+| Ödeme durumları | `paywall-docs/sistem-verileri/odeme-durumlari.md` |
+| Ödeme kanalları | `paywall-docs/sistem-verileri/odeme-kanallari.md` |
+| Ödeme tipleri | `paywall-docs/sistem-verileri/odeme-tipleri.md` |
+| Ödeme yöntemleri | `paywall-docs/sistem-verileri/odeme-yontemleri.md` |
+| Para birimleri | `paywall-docs/sistem-verileri/para-birimleri.md` |
+| Parçalı ödeme | `paywall-docs/sistem-verileri/parcali-odeme.md` |
+| Payout durumları | `paywall-docs/sistem-verileri/payout-durumlari.md` |
+| Payout | `paywall-docs/sistem-verileri/payout.md` |
+| Payroute tipleri | `paywall-docs/sistem-verileri/payroute-tipleri.md` |
+| Paywatch sabit değerler | `paywall-docs/sistem-verileri/paywatch-sabit-degerler.md` |
+| Pazaryeri valor tipleri | `paywall-docs/sistem-verileri/pazaryeri-valor-tipleri.md` |
+| QR format tipleri | `paywall-docs/sistem-verileri/qr-format-tipleri.md` |
+| Sanal POS sağlayıcılar | `paywall-docs/sistem-verileri/sanal-pos-saglayicilar.md` |
+| Sanal POS tipleri | `paywall-docs/sistem-verileri/sanal-pos-tipleri.md` |
+| Tekrarlı ödeme | `paywall-docs/sistem-verileri/tekrarli-odeme.md` |
+| Toplu ödeme dosya bilgileri | `paywall-docs/sistem-verileri/toplu-odeme-dosya-bilgileri.md` |
+| Toplu ödeme sonuç dosya | `paywall-docs/sistem-verileri/toplu-odeme-sonuc-dosya.md` |
+| Toplu ödeme | `paywall-docs/sistem-verileri/toplu-odeme.md` |
+| Üye tipleri | `paywall-docs/sistem-verileri/uye-tipleri.md` |
+| Valor günleri (sanal POS) | `paywall-docs/sistem-verileri/valor-gunleri-sanal-pos.md` |

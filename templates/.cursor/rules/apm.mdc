@@ -1,0 +1,48 @@
+---
+description: "Paywall alternatif ödeme yöntemleri (APM), checkout page, direct pay, OTP, QR ödeme"
+globs: 
+alwaysApply: false
+---
+
+# Paywall Alternatif Ödeme (APM)
+
+APM işlemleri için `paywall-docs/alternatif-odeme-apm/` klasöründeki dosyaları oku.
+
+## Genel İşlemler
+
+| Konu | Dosya |
+|------|-------|
+| Bağlı sağlayıcı listesi | `paywall-docs/alternatif-odeme-apm/1.-bagli-saglayici-liste.md` |
+| Ödeme sorgula | `paywall-docs/alternatif-odeme-apm/2.-odeme-sorgula.md` |
+| İade | `paywall-docs/alternatif-odeme-apm/3.-iade.md` |
+| Kısmi iade | `paywall-docs/alternatif-odeme-apm/4.-kismi-iade.md` |
+| Provizyon kapat | `paywall-docs/alternatif-odeme-apm/5.-provizyon-kapat.md` |
+| Provizyon iptal | `paywall-docs/alternatif-odeme-apm/6.-provizyon-iptal.md` |
+| Kart listesi | `paywall-docs/alternatif-odeme-apm/7.-kart-listesi.md` |
+| Bağlantı kopar | `paywall-docs/alternatif-odeme-apm/8.-baglanti-kopar.md` |
+| Ödeme bitir | `paywall-docs/alternatif-odeme-apm/9.-odeme-bitir.md` |
+
+## Checkout Page Tabanlı
+
+| Konu | Dosya |
+|------|-------|
+| Ödeme başlat (ID ile) | `paywall-docs/alternatif-odeme-apm/checkoutpage-tabanli/1.-odeme-baslat-id.md` |
+| Ödeme başlat (Key ile) | `paywall-docs/alternatif-odeme-apm/checkoutpage-tabanli/2.-odeme-baslat-key.md` |
+
+## Direct Pay Tabanlı
+
+| Konu | Dosya |
+|------|-------|
+| Ödeme başlat | `paywall-docs/alternatif-odeme-apm/directpay-tabanli/1.-odeme-baslat.md` |
+
+## OTP Tabanlı
+
+| Konu | Dosya |
+|------|-------|
+| Ödeme onayla | `paywall-docs/alternatif-odeme-apm/otp-tabanli/1.-odeme-onayla.md` |
+
+## QR Tabanlı
+
+| Konu | Dosya |
+|------|-------|
+| Ödeme oluştur | `paywall-docs/alternatif-odeme-apm/qr-tabanli/1.-odeme-olustur.md` |

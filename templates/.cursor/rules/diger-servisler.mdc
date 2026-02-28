@@ -1,0 +1,94 @@
+---
+description: "Paywall masterpass, link/QR ödeme, ortak ödeme sayfası, üye servisi, mutabakat, kart üretim, hash oluşturma"
+globs: 
+alwaysApply: false
+---
+
+# Paywall Diğer Servisler
+
+## Masterpass Entegrasyonu
+
+Masterpass için `paywall-docs/masterpass-entegrasyonu/` klasöründeki dosyaları oku.
+
+| Konu | Dosya |
+|------|-------|
+| Oturum oluştur | `paywall-docs/masterpass-entegrasyonu/1.-oturum-olustur.md` |
+| Kart listesi | `paywall-docs/masterpass-entegrasyonu/2.-kart-listesi.md` |
+| Kart sil | `paywall-docs/masterpass-entegrasyonu/4.-kart-sil.md` |
+| OTP doğrula | `paywall-docs/masterpass-entegrasyonu/5.-otp-dogrula.md` |
+| OTP tekrar gönder | `paywall-docs/masterpass-entegrasyonu/6.-otp-tekrar-gonder.md` |
+| Hesap ile bağlantı kur | `paywall-docs/masterpass-entegrasyonu/7.-hesap-ile-baglanti-kur.md` |
+| Hesap ile bağlantı kopar | `paywall-docs/masterpass-entegrasyonu/8.-hesap-ile-baglanti-kopar.md` |
+| Ödeme bitir | `paywall-docs/masterpass-entegrasyonu/10.-odeme-bitir.md` |
+| Ödeme doğrula OTP | `paywall-docs/masterpass-entegrasyonu/11.-odeme-dogrula-otp.md` |
+
+## Link/QR Servisi
+
+| Konu | Dosya |
+|------|-------|
+| Oluştur | `paywall-docs/linkqr-servisi/1.-olustur.md` |
+
+## Ortak Ödeme Sayfası (Checkout Page)
+
+| Konu | Dosya |
+|------|-------|
+| Oluştur | `paywall-docs/ortak-odeme-sayfasi/1.-olustur.md` |
+| Ödeme sorgulama | `paywall-docs/ortak-odeme-sayfasi/2.-odeme-sorgulama.md` |
+
+## Üye Servisi
+
+Üye yönetimi için `paywall-docs/uye-servisi/` klasöründeki dosyaları oku.
+
+| Konu | Dosya |
+|------|-------|
+| Üye oluştur | `paywall-docs/uye-servisi/uye-yonetimi/1.-uye-olustur.md` |
+| Üye güncelle | `paywall-docs/uye-servisi/uye-yonetimi/2.-uye-guncelle.md` |
+| Üye sil | `paywall-docs/uye-servisi/uye-yonetimi/3.-uye-sil.md` |
+| Üyeler | `paywall-docs/uye-servisi/uye-yonetimi/4.-uyeler.md` |
+| Üye ara | `paywall-docs/uye-servisi/uye-yonetimi/5.-uye-ara.md` |
+| Banka yöntemi ekle | `paywall-docs/uye-servisi/uye-banka-yonetimi/1.-banka-yontemi-ekle.md` |
+| Banka yöntemi düzenle | `paywall-docs/uye-servisi/uye-banka-yonetimi/2.-banka-yontemi-duzenle.md` |
+| Banka yöntemi sil | `paywall-docs/uye-servisi/uye-banka-yonetimi/3.-banka-yontemi-sil.md` |
+| Banka yöntemleri | `paywall-docs/uye-servisi/uye-banka-yonetimi/4.-banka-yontemleri.md` |
+| Valor komisyon getir | `paywall-docs/uye-servisi/uye-valor-komisyon/1.-valor-komisyon-getir.md` |
+| Valor komisyon ekle | `paywall-docs/uye-servisi/uye-valor-komisyon/2.-valor-komisyon-ekle.md` |
+
+## Mutabakat Servisi
+
+| Konu | Dosya |
+|------|-------|
+| Mutabakat yap | `paywall-docs/mutabakat-servisi/sanal-pos/1.-mutabakat-yap.md` |
+| Mutabakat getir | `paywall-docs/mutabakat-servisi/sanal-pos/2.-mutabakat-getir.md` |
+| Gün sonu verileri | `paywall-docs/mutabakat-servisi/sanal-pos/3.-gun-sonu-verileri.md` |
+| Mutabakat listesi | `paywall-docs/mutabakat-servisi/sanal-pos/4.-mutabakat-listesi.md` |
+
+## Kart Üretim Servisi
+
+| Konu | Dosya |
+|------|-------|
+| Sanal kart oluştur | `paywall-docs/kart-uretim-servisi/sanal-kart/1.-olustur.md` |
+| Fiziksel kart ekle | `paywall-docs/kart-uretim-servisi/fiziksel-kart/1.-ekle.md` |
+| Hesap bakiye kontrol | `paywall-docs/kart-uretim-servisi/1.-hesap-bakiye-kontrol.md` |
+| Pasif et | `paywall-docs/kart-uretim-servisi/2.-pasif-et.md` |
+| Aktif et | `paywall-docs/kart-uretim-servisi/3.-aktif-et.md` |
+| Sil | `paywall-docs/kart-uretim-servisi/4.-sil.md` |
+| Bakiye arttır | `paywall-docs/kart-uretim-servisi/5.-bakiye-artir.md` |
+| Bakiye azalt | `paywall-docs/kart-uretim-servisi/6.-bakiye-azalt.md` |
+| Detay | `paywall-docs/kart-uretim-servisi/7.-detay.md` |
+| Kart listesi | `paywall-docs/kart-uretim-servisi/8.-kart-listesi.md` |
+| Kart işlemleri | `paywall-docs/kart-uretim-servisi/11.-kart-islemleri.md` |
+| Şifre güncelle | `paywall-docs/kart-uretim-servisi/12.-sifre-guncelle.md` |
+
+## Hash Oluşturma
+
+| Konu | Dosya |
+|------|-------|
+| Hash formatları | `paywall-docs/hash-olusturma/formatlar.md` |
+| Anahtar tipleri | `paywall-docs/hash-olusturma/anahtar-tipleri.md` |
+
+## Client-Side Servisler
+
+| Konu | Dosya |
+|------|-------|
+| TempCard | `paywall-docs/client-side-servisler/1.-tempcard.md` |
+| Yetkilendirme | `paywall-docs/client-side-servisler/yetkilendirme.md` |

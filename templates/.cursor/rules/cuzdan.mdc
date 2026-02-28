@@ -1,0 +1,96 @@
+---
+description: "Paywall cüzdan servisleri, wallet, bakiye, para transferi, limit ve komisyon yönetimi"
+globs: 
+alwaysApply: false
+---
+
+# Paywall Cüzdan Servisleri (Wallet)
+
+Cüzdan işlemleri için `paywall-docs/cuzdan-servisleri/` klasöründeki dosyaları oku.
+
+## Cüzdan Sahipleri
+
+| Konu | Dosya |
+|------|-------|
+| Liste | `paywall-docs/cuzdan-servisleri/1.-cuzdan-sahipleri/1.-liste.md` |
+| Oluştur | `paywall-docs/cuzdan-servisleri/1.-cuzdan-sahipleri/2.-olustur.md` |
+| Getir | `paywall-docs/cuzdan-servisleri/1.-cuzdan-sahipleri/3.-getir.md` |
+| Sil | `paywall-docs/cuzdan-servisleri/1.-cuzdan-sahipleri/4.-sil.md` |
+| Güncelle | `paywall-docs/cuzdan-servisleri/1.-cuzdan-sahipleri/5.-guncelleme.md` |
+| Kimlik ile sorgula | `paywall-docs/cuzdan-servisleri/1.-cuzdan-sahipleri/6.-kimlik-ile-sorgula.md` |
+| Vergi no ile sorgula | `paywall-docs/cuzdan-servisleri/1.-cuzdan-sahipleri/7.-vergi-numarasi-ile-sorgula.md` |
+
+## Cüzdan İşlemleri
+
+| Konu | Dosya |
+|------|-------|
+| Getir | `paywall-docs/cuzdan-servisleri/2.-cuzdan/1.-getir.md` |
+| Alias ile getir | `paywall-docs/cuzdan-servisleri/2.-cuzdan/2.-getir-by-alias.md` |
+| WalletOwner ile getir | `paywall-docs/cuzdan-servisleri/2.-cuzdan/3.-getir-by-walletowner.md` |
+| Oluştur | `paywall-docs/cuzdan-servisleri/2.-cuzdan/4.-olustur.md` |
+| Güncelle | `paywall-docs/cuzdan-servisleri/2.-cuzdan/5.-guncelle.md` |
+| Sil | `paywall-docs/cuzdan-servisleri/2.-cuzdan/6.-sil.md` |
+| Dondur | `paywall-docs/cuzdan-servisleri/2.-cuzdan/7.-dondur.md` |
+| Dondurmayı kaldır | `paywall-docs/cuzdan-servisleri/2.-cuzdan/8.-dondurmayi-kaldir.md` |
+| Para yatırma (wallet) | `paywall-docs/cuzdan-servisleri/2.-cuzdan/9.-para-yatirma-wallet.md` |
+| Para yatırma (alias) | `paywall-docs/cuzdan-servisleri/2.-cuzdan/10.-para-yatirma-alias.md` |
+| Para çekme (wallet) | `paywall-docs/cuzdan-servisleri/2.-cuzdan/11.-para-cekme-wallet.md` |
+| Para çekme (alias) | `paywall-docs/cuzdan-servisleri/2.-cuzdan/12.-para-cekme-alias.md` |
+| Para transferi (wallet) | `paywall-docs/cuzdan-servisleri/2.-cuzdan/13.-para-transferi-wallet.md` |
+| Para transferi (alias) | `paywall-docs/cuzdan-servisleri/2.-cuzdan/14.-para-transferi-alias.md` |
+| Para transferi (wallet-alias) | `paywall-docs/cuzdan-servisleri/2.-cuzdan/15.-para-transfer-wallet-alias.md` |
+| Bakiye sorgula (wallet) | `paywall-docs/cuzdan-servisleri/2.-cuzdan/16.-bakiye-sorgula-wallet.md` |
+| Bakiye sorgula (alias) | `paywall-docs/cuzdan-servisleri/2.-cuzdan/17.-bakiye-sorgula-alias.md` |
+| Satış harcama (wallet) | `paywall-docs/cuzdan-servisleri/2.-cuzdan/18.-satis-harcama-wallet.md` |
+| Satış harcama (alias) | `paywall-docs/cuzdan-servisleri/2.-cuzdan/19.-satis-harcama-alias.md` |
+| Satış harcama iptal | `paywall-docs/cuzdan-servisleri/2.-cuzdan/20.-satis-harcama-iptal.md` |
+| Satış harcama iade | `paywall-docs/cuzdan-servisleri/2.-cuzdan/21.-satis-harcama-iade.md` |
+| İşlem kontrolü (wallet) | `paywall-docs/cuzdan-servisleri/2.-cuzdan/22.-islem-kontrolu-wallet.md` |
+| İşlem kontrolü (alias) | `paywall-docs/cuzdan-servisleri/2.-cuzdan/23.-islem-kontrolu-alias.md` |
+
+## İşlemler
+
+| Konu | Dosya |
+|------|-------|
+| ID ile getir | `paywall-docs/cuzdan-servisleri/3.-islemler/1.-id-ile-getir.md` |
+| Wallet ile getir | `paywall-docs/cuzdan-servisleri/3.-islemler/2.-wallet-ile-getir.md` |
+| WalletOwner ile getir | `paywall-docs/cuzdan-servisleri/3.-islemler/3.-walletowner-ile-getir.md` |
+| Referans ile getir | `paywall-docs/cuzdan-servisleri/3.-islemler/4.-referans-ile-getir.md` |
+| Açıklama güncelle | `paywall-docs/cuzdan-servisleri/3.-islemler/5.-aciklama-guncelle.md` |
+
+## Limit Yönetimi
+
+| Konu | Dosya |
+|------|-------|
+| Sistem limiti oluştur | `paywall-docs/cuzdan-servisleri/4.-limit-yonetimi/1.-olustur-sistem.md` |
+| WalletOwner limiti | `paywall-docs/cuzdan-servisleri/4.-limit-yonetimi/2.-olustur-walletowner.md` |
+| Wallet limiti | `paywall-docs/cuzdan-servisleri/4.-limit-yonetimi/3.-olustur-wallet.md` |
+| Listele | `paywall-docs/cuzdan-servisleri/4.-limit-yonetimi/4.-listele.md` |
+| Güncelle | `paywall-docs/cuzdan-servisleri/4.-limit-yonetimi/5.-guncelleme.md` |
+| Sil (ID) | `paywall-docs/cuzdan-servisleri/4.-limit-yonetimi/6.-sil-id.md` |
+
+## Komisyon Yönetimi
+
+| Konu | Dosya |
+|------|-------|
+| Sistem seviyesi oluştur | `paywall-docs/cuzdan-servisleri/8.-komisyon-yonetimi/1.-olustur-sistem-seviyesi.md` |
+| Cüzdan sahibi oluştur | `paywall-docs/cuzdan-servisleri/8.-komisyon-yonetimi/2.-olustur-cuzdan-sahibi.md` |
+| Cüzdan oluştur | `paywall-docs/cuzdan-servisleri/8.-komisyon-yonetimi/3.-olustur-cuzdan.md` |
+| Güncelle | `paywall-docs/cuzdan-servisleri/8.-komisyon-yonetimi/8.-komisyon-guncelle.md` |
+
+## Hediye Bakiye
+
+| Konu | Dosya |
+|------|-------|
+| Oluştur (wallet) | `paywall-docs/cuzdan-servisleri/6.-hediye-bakiye/1.-olustur-wallet.md` |
+| Oluştur (alias) | `paywall-docs/cuzdan-servisleri/6.-hediye-bakiye/2.-olustur-alias.md` |
+| Sorgula (ID) | `paywall-docs/cuzdan-servisleri/6.-hediye-bakiye/3.-sorgula-id.md` |
+| Sorgula (wallet) | `paywall-docs/cuzdan-servisleri/6.-hediye-bakiye/4.-sorgula-wallet.md` |
+
+## Kampanya
+
+| Konu | Dosya |
+|------|-------|
+| Oluştur | `paywall-docs/cuzdan-servisleri/7.-kampanya/1.-olustur.md` |
+| Güncelle | `paywall-docs/cuzdan-servisleri/7.-kampanya/2.-guncelle.md` |
+| Aktif kampanyalar | `paywall-docs/cuzdan-servisleri/7.-kampanya/9.-aktif-kampanyalar.md` |

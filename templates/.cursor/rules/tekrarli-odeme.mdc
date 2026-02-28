@@ -1,0 +1,43 @@
+---
+description: "Paywall tekrarlı ödeme, abonelik, subscription yönetimi"
+globs: 
+alwaysApply: false
+---
+
+# Paywall Tekrarlı Ödeme Servisi (Subscription)
+
+Tekrarlı ödeme/abonelik işlemleri için `paywall-docs/tekrarli-odeme-servisi/` klasöründeki dosyaları oku.
+
+## Anahtar Kelime → Dosya Eşleştirmesi
+
+| Konu | Dosya |
+|------|-------|
+| Tekrarlı ödeme oluştur | `paywall-docs/tekrarli-odeme-servisi/1.-tekrarli-olustur.md` |
+| Tekrarlı ödeme düzenle | `paywall-docs/tekrarli-odeme-servisi/2.-tekrarli-duzenle.md` |
+| Tekrarlı ödeme sorgula | `paywall-docs/tekrarli-odeme-servisi/3.-tekrarli-sorgula.md` |
+| Tekrarlı ödeme durdur | `paywall-docs/tekrarli-odeme-servisi/4.-tekrarli-durdur.md` |
+| Tekrarlı ödeme sil | `paywall-docs/tekrarli-odeme-servisi/5.-tekrarli-sil.md` |
+| Tekrarlı ödeme yeniden başlat | `paywall-docs/tekrarli-odeme-servisi/6.-tekrarli-yeniden-baslat.md` |
+| Tekrarlı ödeme sorgula | `paywall-docs/tekrarli-odeme-servisi/7.-tekrarli-odeme-sorgula.md` |
+
+## Tekrarlı Ödeme Kart Yönetimi
+
+| Konu | Dosya |
+|------|-------|
+| Kartlar | `paywall-docs/tekrarli-odeme-servisi/8.-tekrarli-odeme-kart/1.-kartlar.md` |
+| Kart ekle | `paywall-docs/tekrarli-odeme-servisi/8.-tekrarli-odeme-kart/2.-kart-ekle.md` |
+| Kart sil | `paywall-docs/tekrarli-odeme-servisi/8.-tekrarli-odeme-kart/3.-kart-sil.md` |
+
+## Müşteri Havuzu
+
+| Konu | Dosya |
+|------|-------|
+| Liste | `paywall-docs/tekrarli-odeme-servisi/9.-musteri-havuzu/1.-liste.md` |
+| Ara | `paywall-docs/tekrarli-odeme-servisi/9.-musteri-havuzu/2.-ara.md` |
+
+## Ürün İçerik Havuzu
+
+| Konu | Dosya |
+|------|-------|
+| Liste | `paywall-docs/tekrarli-odeme-servisi/10.-urun-icerik-havuzu/1.-liste.md` |
+| Ara | `paywall-docs/tekrarli-odeme-servisi/10.-urun-icerik-havuzu/2.-ara.md` |
